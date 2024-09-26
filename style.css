@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9d6a8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#myform {
+    width: 300px;
+    padding: 20px 50px 40px;
+    font-size: 20px;
+    color: #F2AA4C;
+    background-color: #101820;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myheading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#myform input {
+    width: 100%;
+    margin: 5px 0;
+    height: 25px;
+}
+
+#getresult {
+    width: 50%;
+    padding: 10px;
+    font-weight: bold;
+    color: #101820;
+    background-color: #F2AA4C;
+    border-radius: 20px;
+    align-self: center;
+}
+
+#getresult:hover {
+    color: #F2AA4C;
+    background-color: #101820;
+    border: 2px solid white;
+}
+
+#myresult {
+    font-size: 20px;
+    display: none;
+    color: #F2AA4C;
+    background-color: #101820;
+    padding: 30px 20px 50px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 600px;
+}
+
+#refresh {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #101820;
+    background-color: #F2AA4C;
+    border-radius: 20px;
+}
+
+#refresh:hover {
+    color: #F2AA4C;
+    background-color: #101820;
+    border: 2px solid white;
+}
+
+#mypara {
+    width: 70%;
+    margin: 0 auto;
+}

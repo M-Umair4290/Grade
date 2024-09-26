@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="myform">
+            <h2 class="myheading">Grade</h2>
+
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" required>
+
+            <br>
+
+            <label for="course1">Course 1 Marks</label>
+            <input type="text" name="course1" id="course1" required>
+
+            <br>
+
+            <label for="course2">Course 2 Marks</label>
+            <input type="text" name="course2" id="course2" required>
+
+            <br>
+
+            <label for="course3">Course 3 Marks</label>
+            <input type="text" name="course3" id="course3" required>
+
+            <br>
+
+            <label for="totalmarks">Total Marks</label>
+            <input type="text" name="totalmarks" id="totalmarks" required>
+
+            <br>
+
+            <button id="getresult" type="submit">Get Result</button>
+
+        </form>
+
+        <div id="myresult">
+            <h3 class="myheading">Result</h3>
+            <p>Obtained Marks: <span id="obtmarks"></span></p>
+            <p>Percentage: <span id="percentage"></span></p>
+            <p>Grade: <span id="mygrade"></span></p>
+            <p id="mypara">Remarks: <span id="remarks"></span></p>
+            <button id="refresh" onclick="location.reload()">Refresh</button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
